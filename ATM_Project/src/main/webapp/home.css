@@ -1,0 +1,26 @@
+
+*{
+    background-color: bisque;
+    color: blueviolet;
+}
+
+h1{
+    color: crimson;
+}
+
+.getInput{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+div{
+    align-items: center;
+}
+
+a {
+display: flex;
+align-items:center;
+text-align: center;
+}
