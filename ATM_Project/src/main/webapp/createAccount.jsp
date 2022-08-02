@@ -45,6 +45,7 @@
 		//	String email = s.next();
 
 		String s1 = "INSERT into banking values (?,?,?,?,?) ";
+//		String s2 = "insert into bank_trans values (deposit) + (?) where acct_no=?	";
 		//	PreparedStatement st = con.prepareStatement("INSERT into banking (acct_no, cname, caddress, mobile, email" + "(?,?,?,?,?)",
 		//	Statement.RETURN_GENERATED_KEYS);
 		//	ResultSet tableKeys = st.getGeneratedKeys();
