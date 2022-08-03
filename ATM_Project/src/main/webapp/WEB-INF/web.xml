@@ -4,7 +4,7 @@
 
 <servlet>
 		<servlet-name>createAccount</servlet-name>
-		<jsp-file>createAccount.jsp</jsp-file>
+		<jsp-file>/createAccount.jsp</jsp-file>
 	</servlet>
 
 	<servlet-mapping>
