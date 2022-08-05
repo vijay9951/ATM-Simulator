@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
-  <display-name>ATM_Project</display-name>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="5.0">
+	<display-name>ATM_Project</display-name>
 
-<servlet>
+	<servlet>
 		<servlet-name>createAccount</servlet-name>
 		<jsp-file>/createAccount.jsp</jsp-file>
 	</servlet>
@@ -10,6 +14,16 @@
 	<servlet-mapping>
 		<servlet-name>createAccount</servlet-name>
 		<url-pattern>/createAccount</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+	<servlet-name>deposit</servlet-name>
+	<jsp-file>/deposit.jsp</jsp-file>
+</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deposit</servlet-name>
+		<url-pattern>/deposit</url-pattern>
 	</servlet-mapping>
 
 </web-app>
