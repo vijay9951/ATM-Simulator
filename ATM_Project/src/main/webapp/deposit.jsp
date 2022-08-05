@@ -43,7 +43,7 @@
 		pst.setString(1, "acct_no");
 		int rs = pst.executeUpdate();
 
-		while (rs.nextInt()) {
+		while (rs > 0) {
 			out.println("your Account balance : " + rs);
 		}
 
